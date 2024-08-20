@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text Example</title>
+    <style>
+       body{
+    font-family: 'poppins', sans-serif;
+    box-sizing : border-box;
+    margin :0;
+    scroll-behavior: smooth;
+    background: url(https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+        #nameBtn {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 10px;
+            font-weight: bold;
+            background-color: rgb(0, 204, 255);
+            align-items: center;
+        }
+        
+        #myText {
+            color: white;
+            font-size: larger;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <p id="myText">This text will change.</p>
+    <button id="nameBtn" onclick="changeText()">Click me</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
