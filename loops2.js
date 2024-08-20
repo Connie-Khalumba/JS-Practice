@@ -1,8 +1,6 @@
-function doubleArray(numbers) {
-    numbers.forEach(function(number) {
-        console.log(number * 2);
-    });
-}
+const doubleArray = (numbers) => {
+    numbers.forEach(number => 
+        console.log(number * 2));
+};
 
-// Results
-doubleArray([1, 2, 3, 4, 5]);
+doubleArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
